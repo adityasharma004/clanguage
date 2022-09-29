@@ -1,9 +1,19 @@
-#include<stdio.h>
-void main(){
-    int a=9;
-    float b =7.333;
-    printf("hello world\n");
-   // printf("the value of a is %d\n and the value of b is %f\n",a, b);
-      printf(" %7.4f\n",b);
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main()
+{
+	int a,b;
+    float c,d;
+    scanf("%d %d %f %f",&a,&b,&c,&d);
+    int sum = a+b;
+    int diff = a-b;
+    float fsum = c+d;
+    float fdiff = c-d;
+    printf("%d %d\n%0.1f %0.1f",sum,diff,fsum,fdiff);
+
     
+    return 0;
 }
