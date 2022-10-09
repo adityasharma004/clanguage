@@ -7,5 +7,5 @@ int main()
     DA=Basicsalary*0.5;
     HRA=Basicsalary*0.35;
     float grossprofit=Basicsalary+DA+HRA;
-    printf("%.2f",grossprofit);
+    printf("%.1f",grossprofit);
 }
