@@ -1,12 +1,13 @@
-// Create variables
 #include<stdio.h>
-void main(){
-int myNum = 5;             // Integer (whole number)
-float myFloatNum = 5.99;   // Floating point number
-char myLetter = 'D';       // Character
-
-// Print variables
-printf("%d\n",myNum);
-printf("%f\n",myFloatNum);
-printf("%c\n",myLetter);
+int main()
+{
+    int m1,m2,m3;
+    printf("enter the marks for englsih");
+    scanf("%d",&m1);
+     printf("\n enter the marks for maths");
+    scanf("%d",&m2);
+     printf("\n enter the marks for science");
+    scanf("%d",&m3);
+    float per=(m1+m2+m3)/3;
+    printf("%.3f \n",per);
 }
