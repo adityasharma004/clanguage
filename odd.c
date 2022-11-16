@@ -5,10 +5,11 @@ int main() {
     scanf("%d", &num);
 
     
-    if(num % 2 == 0)
-        printf("%d is even.", num);
-    else
+        if(num % 2!= 0){
         printf("%d is odd.", num);
-    
+        }
+    else{
+        printf("%d is even.", num);
+    }
     return 0;
 }
