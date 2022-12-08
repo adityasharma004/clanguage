@@ -21,7 +21,7 @@
 void main()
 {
     int a[]={2,3,4,5,1},i;
-    for(i=0;i<5;i++)
+    for(i=0;i<3;i++)
     {
         printf("%d",a[i]);
     }
